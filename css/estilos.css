@@ -13,7 +13,7 @@
 }
 
 body {
-   background-color: #c1d2d6;
+   background: linear-gradient(to right, #c1d2d6, #bad47b);
 }
 
 .icono {
@@ -23,7 +23,6 @@ body {
 }
 
 .header {
-   background-color: #c1d2d6;
    padding-bottom: 20px;
    display: flex;
    flex-direction: row;
@@ -128,7 +127,6 @@ body {
 } */
 
 .nav {
-   background-color: #c1d2d6;
    text-align: center;
 }
 
@@ -158,7 +156,7 @@ body {
 }*/
 
 .padre {
-   padding: 25px;
+   padding-top: 2rem;
    width: 100%;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -177,6 +175,8 @@ body {
    height: 100%;
    border: 2px solid rgb(187, 69, 69);
 }
+
+
 
 .fotoPrincipal {
    grid-area: central;
@@ -208,7 +208,6 @@ body {
 }
 
 .otrosServicios {
-   background-color: #c1d2d6;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
@@ -256,6 +255,13 @@ body {
    flex-basis: 280px;
 }
 
+.scale:hover {
+   transform: scale(1.1);
+}
+
+.transition {
+   transition: all 200ms ease-in-out;
+}
 
 .flex__content {
    width: 90%;
@@ -272,7 +278,6 @@ body {
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   background-color: #c1d2d6;
    padding-top: 15px;
    padding-bottom: 15px;
    color: rgb(187, 69, 69);
@@ -309,10 +314,6 @@ body {
    text-decoration: underline;
 }
 
-.redes {
-   background-color: #c1d2d6;
-}
-
 .redes p {
    color: rgb(187, 69, 69);
    font-family: 'Mansalva', cursive;
@@ -338,7 +339,6 @@ body {
 
 .copyright {
    padding-top: 20px;
-   background-color: #c1d2d6;
    text-align: center;
    color: rgb(187, 69, 69);
    text-decoration: none;
