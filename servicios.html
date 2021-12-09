@@ -3,85 +3,142 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<title>Pet-shop "Amigos Peludos"</title>
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg m-auto navbar-light bg-light">
+		<div class="row align-items-center"></div>
+		<div class="container-fluid logo">
+			<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+		</div>
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">Contacto</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tienda.html">Tienda</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container header_servicios">
+		<div class="card bg-info">
+			<div class=" fs-1 card-body">
+				<p>VETERINARIA</p>
+			</div>
+		</div>
+	</div>
+	<div class="container mb-3 mt-5">
+		<div class="card  bg-info" style="width: 100%;">
+			<div class="row g-0">
+		  		<div class="col-md-4">
+					<img src="images/consulta.png" class="img-fluid rounded-start" alt="perro y gato">
+		  		</div>
+		 		<div class="col-md-8">
+					<div class="serv_vete">
+			  			<h5 class="card-title mt-5">Consultas</h5>
+			  			<p class="vete card-text">Como ya sabés, tu amiguito es nuestra principal prioridad. Por eso lo atendemos las 24 horas, los 365 días del año con los mas calificados profesionales del país.</p>
+					</div>
+		 		</div>
+			</div>
+	 	</div>
+	</div>
+
+	<div class="container header_servicios">
+		<div class="pelu card bg-info">
+			<div class=" fs-1 card-body">
+				<p> PELUQUERÍA </p>
+			</div>
+	  	</div>
+	</div>
+	<div class="container">
+		<div class="card mb-3 mt-5 bg-info" style="width: 100%;">
+			<div class="row g-0">
+				<div class="col-md-8">
+					<div class="serv_vete">
+			  			<h5 class="card-title mt-5">Estética</h5>
+			  			<p class="vete card-text">El cuidado del pelo de tu mascota es esencial para mantenerla linda y saludable por eso ofrecemos baños, cortes y peinados que combinan estos dos aspectos fundamentales para su bienestar con una amplia variedad de productos hipoalergénicos y naturales. Y además atendidos por los mejores peluqueros.</p>
+					</div>
+		 		</div>
+				<div class="serv_pelu col-md-4">
+					<img src="images/perro_y_gato_baño.jpg" class="img-fluid rounded-start" alt="perro y gato debajo de toallon">
+		  		</div>
+			</div>
+		</div>
+	</div>
+	<div>
+
+		<div class="container footer">
+			<div class="text-center text-lg-start bg-light text-muted">
+				<div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+					<div class=" resumen me-5 d-none d-lg-block">
+						<span>Conéctese con nosotros en las redes sociales:</span>
+					  </div>
+					  <div>
+						<a href="https://www.facebook.com/" target="_blank" class="me-4 text-reset"><img src="images/facebook.png" alt="logo de facebook"></a>
+						<a href="https://www.instagram.com/" target="_blank" class="me-4 text-reset"><img src="images/instagram.png" alt="logo de instagram"></a>
+						<a href="https://twitter.com/" target="_blank" class="me-4 text-reset"><img src="images/twitter.png" alt="logo de twitter"></a>
+					</div>
+				</div>
+				<div>
+					  <div class="container text-center text-md-start mt-5">
+						<div class="mision row mt-3">
+							  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+								<h6 class="mb-4">"Amigos Peludos"</h6>
+								<p> Nos encontramos en zona norte. Somos el único lugar dónde mimamos a tu mascota siendo nuestra mayor alegría que ellas sean felices y estén cómodas y contentas. </p>
+							  </div>
+							  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+								<h6 class="mb-4">Productos</h6>
+								<p><a href="tienda.html">Royal Canin</a></p>
+								<p><a href="tienda.html">Proplan</a></p>
+								<p><a href="tienda.html">Vital Can</a></p>
+							  </div>
+							<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+								<h6 class="mb-4">Links</h6>
+								<p><a href="servicios.html">Servicios</a></p>
+								<p><a href="tienda.html">Tienda</a></p>
+								<p><a href="nosotros.html">Nosotros</a></p>
+							  </div>
+							  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+								<h6 class="mb-4">Contacto</h6>
+								<p><a href="contacto.html">Italia 490 - Vicente López</p>
+								<p><a href="mailto:info@petshopamigospeludos.com">info@petshopamigospeludos.com</a></p>
+								<p><a href="tel:0810-555-5555">0810-555-5555</a></p>
+							  </div>
+						</div>
+					</div>
+				</div>
+				<div class="pie text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">© Pet-Shop Amigos Peludos</div>
+			</div>
+		</div>
+		
+
 
 	<div class="icono">
 		<a href="https://api.whatsapp.com/" target="_blank"><img src="images/icono.png" alt="icono de whatsapp"></a>
 	</div>
 
-	<div class="header">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt="logo"></a>
-		</div>
-		<div class="slogan">
-			<p>El lugar donde mimamos a tu mascota</p>
-		</div>
-		<div class="inicioSesion">
-			<a href="tienda.html">Iniciar sesión</a>
-			<img src="images/carrito_de_compras.png" alt="carrito de compras">
-			<span>0</span>
-		</div>
-	</div>
 
-	<div class="nav">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-		    <li><a href="nosotros.html">Nosotros</a></li>
-		    <li class="active"><a href="servicios.html">Servicios</a></li>
-		    <li><a href="contacto.html">Contacto</a></li>
-		    <li><a href="tienda.html">Tienda</a></li>
-		</ul>
-	</div>
 
-	<div class="otrosServicios">
-	<!-- NO SÉ COMO HACER PARA QUE QUEDE LA IMAGEN DE CADA SERVICIO A LA IZQUIERDA Y CENTRADA AL TEXTO -->
-		<div class="envios">
-			<img src="images/camion.png" alt="camion de envios">
-			<span>ENVÍOS SIN CARGO</span>
-			<p>En CABA y GBA</p>
-		</div>
-		<div class="descuentos">
-			<img src="images/simbolo_pesos.png" alt="simbolo de pesos">
-			<span>DESCUENTOS EXTRAS</span>
-			<p>Pagando en efectivo</p>
-		</div>
-		<div class="tarjeta">
-			<img src="images/tarjeta.png" alt="tarjeta de credito">
-			<span>PAGÁ CON TARJETA</span>
-			<p>En cuotas sin interés</p>
-		</div>
-	</div>
-
-	<div class="footer">
-		<div class="contacto">
-			<p>CONTÁCTANOS</p>
-			<ul>
-				<li>
-					<img src="images/telefono.png" alt="tubo de telefono"><a href="tel:0810-555-5555">0810-555-5555</a>
-				</li>
-				<li>
-					<img src="images/email.png" alt="simbolo de arroba"><a href="mailto:info@petshopamigospeludos.com">info@petshopamigospeludos.com</a>
-				</li>
-				<li>
-					<img src="images/ubicacion.png" alt="simbolo de ubicacion"><a href="contacto.html">Italia 490 - Vicente López</a>
-				</li>
-			</ul>
-		</div>
-
-		<div class="redes">
-			<p>REDES SOCIALES</p>
-			<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="logo de facebook"></a>
-			<a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="logo de instagram"></a>
-			<a href="https://twitter.com/" target="_blank"><img src="images/twitter.png" alt="logo de twitter"></a>
-		</div>
-	</div>
-
-	<div class="copyright">
-		<p>© Pet-Shop Amigos Peludos</p>
-	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

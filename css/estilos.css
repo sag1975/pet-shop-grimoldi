@@ -1,18 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');*/
 
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-
-body {
+body, nav{
    background: linear-gradient(to right, #c1d2d6, #bad47b);
 }
 
@@ -22,274 +11,87 @@ body {
    right: 10px;
 }
 
-.header {
-   padding-bottom: 20px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.logo {
-   padding-top: 15px;
-}
-
-.slogan {
-   font-family: 'Mansalva', cursive;
-   /*font-family: 'Bungee Shade', cursive;
-   font-family: 'Rye', cursive;
-   font-family: 'Leckerli One', cursive;
-   font-family: 'Rubik Beastly', cursive;
-   font-family: 'Luckiest Guy', cursive;*/
-   font-size: 62px;
-   color: #AE45BB;
-}
-
 .logo img {
-   width: 200px;
-   height: auto;
    margin: auto;
-   display: inline-block;
 }
 
-.inicioSesion {
-   text-align: right;
-   text-transform: capitalize;
-   padding-right: 30px;
-   font-family: 'Mansalva', cursive;
-   font-size: x-large;
-   font-weight: bold;
+.logo a {
+   margin:auto;
 }
 
-.inicioSesion a {
-   color: rgb(187, 69, 69);
-   text-decoration: none;
-   padding-right: 20px;
-}
-
-.inicioSesion a:hover {
-   text-decoration: underline;
-}
-
-/* EL SITIO ANDA BIEN ENTRE 560 Y LOS 767 QUE LE PUSE, ABAJO DE 767 ROMPE. NO ENTIENDO PORQUE YA QUE AL PONER "max-width:767px" TENDRIA QUE ANDAR PERFECTO POR DEBAJO DE ESE VALOR*/
-
-/*@media all and (max-width: 767px){
-   .header {
-      text-align: center;
-   }
-   .slogan p {
-      font-size: 30px;
-      text-align: center;
-   }
-   .inicioSesion {
-      font-size: 20px;
-      padding-right: 5px;
-      display: contents;
-   }
-   .inicioSesion a {
-      padding-right: 10;
-      line-height: 1;
-   }
-   .inicioSesion img {
-      padding-right: 10px;
-   }
-   .inicioSesion span {
-      padding-right: 25px;
-   }
-}*/
-
-@media all and (min-width: 0px) and (max-width: 767px) {
-   .header {
-      display: block;
-      padding: 20px;
-      text-align: center;
-   }
-}
-
-
-
-
-/* @media all and (max-width: 992px) {
-   .header {
-      text-align: center;
-   }
-
-   .slogan p {
-      font-size: 40px;
-      text-align: center;
-   }
-
-   .inicioSesion {
-      font-size: 23px;
-      display: contents;
-   }
-
-} */
-
-.nav {
-   text-align: center;
-}
-
-.nav a {
+#navbarSupportedContent a {
    font-family: 'Mansalva', cursive;
    color: rgb(187, 69, 69);
-   font-size: x-large;
+   font-size: xx-large;
    font-weight: bolder;
    text-decoration: none;
-}
-
-.nav li {
-   display: inline-block;
-   text-transform: uppercase;
-   margin: 0 5%;
-}
-
-.active a {
-   color: rgb(193 15 15);
-}
-
-/*.galeria {
-   background-color: #c1d2d6;
-   display: flex;
-   justify-content: center;
-   padding: 25px;
-}*/
-
-.padre {
-   padding-top: 2rem;
-   width: 100%;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-auto-rows: 500px;
-   gap: 15px;
-   grid-template-areas:
-      ". . ."
-      ". central ."
-      ". . ."
-      ". . ."
-      ". . .";
-}
-
-.padre img {
-   width: 100%;
-   height: 100%;
-   border: 2px solid rgb(187, 69, 69);
-}
-
-
-
-.fotoPrincipal {
-   grid-area: central;
-}
-
-.doble {
-   grid-column: span 2;
-}
-
-.dobleh {
-   grid-row: span 2;
-}
-
-.triplew {
-   grid-column: span 3;
-
-}
-
-.toysCats {
-   grid-column: span 2;
-}
-
-.toysDogs {
-   grid-column: span 1;
 }
 
 .formulario {
    background-color: #c1d2d6;
 }
 
-.otrosServicios {
+.imp {
+   margin-top: 100px;
+}
+
+.contenidoPrincipal {
+   margin: 30px 0;
    display: flex;
-   justify-content: space-evenly;
+   flex-direction: column;
    align-items: center;
-   align-content: space-around;
-   padding-top: 100px;
-   padding-bottom: 100px;
-}
+ }
+ .contenidoPrincipal img {
+   width: 80%;
+   height: 80%;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
 
-.otrosServicios img {
-   position: absolute;
-}
-
-.otrosServicios span {
+.card-body h5 {
    font-family: 'Mansalva', cursive;
    font-weight: bolder;
    color: rgb(187, 69, 69);
    font-size: larger;
-   text-align: right;
+   line-height: 2.5rem;
+   text-align: center;
 }
 
-.otrosServicios p {
+.card-body p {
    font-family: 'Mansalva', cursive;
    font-weight: bolder;
    color: rgb(187, 69, 69);
    font-size: larger;
    text-align: center;
 }
-
-.ecommerce {
-   width: 100%;
-   margin: 0 auto;
-   padding: 30px 0;
-   max-width: 1200px;
-   min-height: 40vh;
-   display: flex;
-   align-items: center;
-   gap: 3.5em;
-   align-content: space-evenly;
-   flex-wrap: wrap;
-}
-
-.flex {
-   width: 90%;
-   margin: 0 auto;
-   flex-basis: 280px;
-}
-
-.scale:hover {
-   transform: scale(1.1);
-}
-
-.transition {
-   transition: all 200ms ease-in-out;
-}
-
-.flex__content {
-   width: 90%;
-   margin: 0 auto;
-}
-
-.flex__img {
-   width: 100%;
-   max-width: 350px;
-}
-
-.footer {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-   padding-top: 15px;
-   padding-bottom: 15px;
+.ecommerce a {
    color: rgb(187, 69, 69);
    font-family: 'Mansalva', cursive;
    font-weight: bolder;
    font-size: larger;
-   text-align: center;
 }
 
+.resumen span {
+   color: rgb(187, 69, 69);
+   font-family: 'Mansalva', cursive;
+   font-weight: bolder;
+   font-size: x-large;
+}
+
+.mision h6, p, a{
+   color: rgb(187, 69, 69);
+   font-family: 'Mansalva', cursive;
+   font-weight: bolder;
+   font-size: large;
+   text-decoration: none;
+}
+
+.mision h6 {
+   text-transform: uppercase;
+}
 .contacto p {
-   text-decoration: underline;
    line-height: 70px;
+   color: rgb(187, 69, 69);
 }
 
 .contacto img {
@@ -316,11 +118,9 @@ body {
 
 .redes p {
    color: rgb(187, 69, 69);
-   font-family: 'Mansalva', cursive;
    font-weight: bolder;
    font-size: larger;
    text-align: center;
-   text-decoration: underline;
    line-height: 70px;
 }
 
@@ -329,20 +129,63 @@ body {
    padding: 10px;
 }
 
+.header_servicios {
+   text-align: center;
+   color: rgb(187, 69, 69);
+   font-weight: bolder;
+   font-size: 3rem;
+   font-family: 'Mansalva', cursive;
+}
+
+.nosotros p {
+   font-size: 30px;
+   color: rgb(187, 69, 69);
+   line-height: 50px;
+   margin-bottom: 20px;
+}
+
+.pelu {
+   margin-top: 125px;
+}
+
+.serv_vete h5{
+   font-size: 3rem;
+   text-align: center;
+   color: rgb(187, 69, 69);
+   font-weight: bolder;
+   font-family: 'Mansalva', cursive;
+}
+
+.serv_vete p {
+   font-size: 1.5rem;
+   margin-top: 22px;
+   text-align: center;
+}
+
+.footer {
+   margin-top: 125px;
+}
+
+.pie {
+   color: rgb(187, 69, 69);
+   font-weight: bolder;
+   font-size: larger;
+   font-family: 'Mansalva', cursive;
+}
+
+
+
+
+
+
+
+
+
+
 .mapa {
    background-color: #c1d2d6;
 }
 
 .mapa iframe {
    border: 2px solid rgb(187, 69, 69);
-}
-
-.copyright {
-   padding-top: 20px;
-   text-align: center;
-   color: rgb(187, 69, 69);
-   text-decoration: none;
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   font-size: larger;
 }
