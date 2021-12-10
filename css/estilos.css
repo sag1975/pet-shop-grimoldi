@@ -27,6 +27,10 @@ body, nav{
    text-decoration: none;
 }
 
+#navbarSupportedContent a:hover {
+   color: #0d6efd;
+}
+
 .imp {
    margin-top: 100px;
 }
@@ -36,14 +40,14 @@ body, nav{
    display: flex;
    flex-direction: column;
    align-items: center;
- }
+}
 
  .contenidoPrincipal img {
    width: 80%;
    height: 80%;
    padding-left: 10px;
    padding-right: 10px;
- }
+}
 
 .card-body h5 {
    font-family: 'Mansalva', cursive;
@@ -61,11 +65,20 @@ body, nav{
    font-size: larger;
    text-align: center;
 }
+
 .ecommerce a {
    color: rgb(187, 69, 69);
    font-family: 'Mansalva', cursive;
    font-weight: bolder;
    font-size: larger;
+}
+
+.scale:hover {
+   transform: scale(1.1);
+}
+
+.transition {
+   transition: all 200ms ease-in-out;
 }
 
 .resumen span {
@@ -85,32 +98,6 @@ body, nav{
 
 .mision h6 {
    text-transform: uppercase;
-}
-.contacto p {
-   line-height: 70px;
-   color: rgb(187, 69, 69);
-}
-
-.contacto img {
-   height: 2em;
-}
-
-.contacto ul {
-   text-align: left;
-   list-style: none;
-}
-
-.contacto a {
-   color: rgb(187, 69, 69);
-   text-decoration: none;
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   font-size: larger;
-   text-align: center;
-}
-
-.contacto a:hover {
-   text-decoration: underline;
 }
 
 .redes p {
@@ -175,8 +162,27 @@ body, nav{
    display: flex;
    flex-direction: column;
    align-items: center;
- }
+}
 
 .mapa iframe {
    border: 2px solid rgb(187, 69, 69);
+   max-width: 100%;
+}
+
+.carrito button {
+   color: rgb(187, 69, 69);
+   font-family: 'Mansalva', cursive;
+   font-weight: bolder;
+   font-size: larger;
+}
+
+.precio {
+   font-weight: bolder;
+   font-size: larger;
+}
+
+.price small {
+   margin-left: 80px;
+   font-weight: bolder;
+   font-size: larger;
 }
