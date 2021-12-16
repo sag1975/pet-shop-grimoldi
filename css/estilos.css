@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
 
 body, nav{
    background: linear-gradient(to right, #c1d2d6, #bad47b);
@@ -182,7 +181,7 @@ body, nav{
 }
 
 .price small {
-   margin-left: 80px;
+   margin-left: 65px;
    font-weight: bolder;
    font-size: larger;
 }
