@@ -168,9 +168,10 @@ body, nav{
 
 .pie {
     color:$ftColor;
-    font-weight: bolder;
+    font-weight: map-get($Copyright, font-weight);
     font-size: larger;
     font-family: 'Mansalva', cursive;
+    background-color: map-get($Copyright, background-color);
 }
 
 .mapa {
@@ -185,16 +186,7 @@ body, nav{
 }
 
 .carrito button {
-    color: $ftColor;
-    font-family: 'Mansalva', cursive;
-    font-weight: bolder;
-    font-size: larger;
-}
-
-.precio {
-    font-weight: bolder;
-    font-size: larger;
-
+    @extend %carritoBtn !optional;
 }
  
 .price small {

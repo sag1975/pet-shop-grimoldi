@@ -41,11 +41,11 @@ body, nav {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contenidoPrincipal img {
@@ -81,7 +81,7 @@ body, nav {
 
 .scale:hover {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .transition {
@@ -176,6 +176,7 @@ body, nav {
   font-weight: bolder;
   font-size: larger;
   font-family: 'Mansalva', cursive;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .mapa {
@@ -185,28 +186,16 @@ body, nav {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mapa iframe {
   border: 2px solid #bb4545;
   max-width: 100%;
-}
-
-.carrito button {
-  color: #bb4545;
-  font-family: 'Mansalva', cursive;
-  font-weight: bolder;
-  font-size: larger;
-}
-
-.precio {
-  font-weight: bolder;
-  font-size: larger;
 }
 
 .price small {
