@@ -1,5 +1,6 @@
 @import "variables";
 @import "fuentes";
+@import "tools";
 
 
 body, nav{
@@ -129,10 +130,8 @@ body, nav{
 }
 
 .header_servicios {
-    text-align: center;
+    @include hscios (center, bolder, 3rem);
     color:$ftColor;
-    font-weight: bolder;
-    font-size: 3rem;
     font-family: 'Mansalva', cursive;
 }
 
