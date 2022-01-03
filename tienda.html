@@ -11,6 +11,23 @@
 	<title>Pet-shop "Amigos Peludos". Un lugar donde comprar los mejores divertidos y de calidad para nuestrso amiguitos de cuatro patas.</title>
 </head>
 <body>
+	<div class="modal fade" id="myModal" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content" style="background: linear-gradient(to right, #c1d2d6, #bad47b); font-family: 'Mansalva', cursive; color: #bb4545; font-size: large; font-weight: bolder;">
+				<div class="modal-header" >
+					<h5 class="modal-title" style="font-family: 'Mansalva', cursive; color: #bb4545; font-size: large; font-weight: bolder;">PRÓXIMAMENTE</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body text-center m-auto">
+					<p>"Amigos Peludos" informa que nuestra tienda online se encuentra en desarrollo.</p>
+					<p>DISCULPE LAS MOLESTIAS</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-info" data-bs-dismiss="modal" style="border:#DEE2E6 solid 1px; color: #bb4545; font-size: large; font-weight: bolder;">Cerrar</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<nav class="navbar navbar-expand-lg m-auto navbar-light bg-light">
 		<div class="row align-items-center"></div>
 		<div class="animate__animated animate__backInLeft container-fluid logo ">
@@ -23,19 +40,19 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						<a class="nav-link" aria-current="page" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+						<a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+						<a class="nav-link" aria-current="page" href="servicios.html">Servicios</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="contacto.html">Contacto</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="tienda.html">Tienda</a>
+						<a class="nav-link active" href="tienda.html">Tienda</a>
 					</li>
 				</ul>
 			</div>
@@ -52,7 +69,7 @@
 					</div>
 					<div class="card-footer">
 				  		<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 1260.-</small>
 						</div>
 					</div>
@@ -66,7 +83,7 @@
 					</div>
 					<div class="card-footer">
 						<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 1560.-</small>
 						</div>
 					</div>
@@ -80,7 +97,7 @@
 					</div>
 					<div class="card-footer">
 						<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 1380.-</small>
 						</div>
 					</div>
@@ -99,7 +116,7 @@
 					</div>
 					<div class="card-footer">
 				  		<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 510.-</small>
 						</div>
 					</div>
@@ -113,7 +130,7 @@
 					</div>
 					<div class="card-footer">
 						<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 1670.-</small>
 						</div>
 					</div>
@@ -127,7 +144,7 @@
 					</div>
 					<div class="card-footer">
 						<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 850.-</small>
 						</div>
 					</div>
@@ -146,7 +163,7 @@
 					</div>
 					<div class="card-footer">
 				  		<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 2730.-</small>
 						</div>
 					</div>
@@ -160,7 +177,7 @@
 					</div>
 					<div class="card-footer">
 						<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 12590.-</small>
 						</div>
 					</div>
@@ -174,7 +191,7 @@
 					</div>
 					<div class="card-footer">
 						<div class="carrito price card-body">
-							<button type="button" class="btn btn-info">Agregar al carrito<a href="#" class="card-link"></a></button>
+							<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#myModal">Agregar al carrito<a href="#" class="card-link"></a></button>
 							<small>$ 3140.-</small>
 						</div>
 					</div>
