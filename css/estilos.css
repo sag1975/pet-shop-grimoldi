@@ -1,191 +1,217 @@
-@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+.carrito button {
+  color: #bb4545;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  font-size: larger;
+}
 
-body, nav{
-   background: linear-gradient(to right, #c1d2d6, #bad47b);
+body, nav {
+  background: -webkit-gradient(linear, left top, right top, from(#c1d2d6), to(#bad47b));
+  background: linear-gradient(to right, #c1d2d6, #bad47b);
 }
 
 .icono {
-   position: fixed;
-   bottom: 10px;
-   right: 10px;
-}
-
-.logo img {
-   margin: auto;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
 .logo a {
-   margin:auto;
+  margin: auto;
+}
+
+.logo img {
+  margin: auto;
 }
 
 #navbarSupportedContent a {
-   font-family: 'Mansalva', cursive;
-   color: rgb(187, 69, 69);
-   font-size: xx-large;
-   font-weight: bolder;
-   text-decoration: none;
+  font-family: 'Mansalva', cursive;
+  color: #bb4545;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 #navbarSupportedContent a:hover {
-   color: #0d6efd;
+  color: #0d6efd;
 }
 
 .active {
-   border-bottom: #AE45BB solid 2px;
+  border-bottom: #AE45BB solid 2px;
 }
 
 .imp {
-   margin-top: 100px;
+  margin-top: 100px;
 }
 
 .contenidoPrincipal {
-   margin: 30px 0;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
- .contenidoPrincipal img {
-   width: 80%;
-   height: 80%;
-   padding-left: 10px;
-   padding-right: 10px;
+.contenidoPrincipal img {
+  width: 80%;
+  height: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .card-body h5 {
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   color: rgb(187, 69, 69);
-   font-size: larger;
-   line-height: 2.5rem;
-   text-align: center;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  color: #bb4545;
+  font-size: larger;
+  line-height: 2.5rem;
+  text-align: center;
 }
 
 .card-body p {
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   color: rgb(187, 69, 69);
-   font-size: larger;
-   text-align: center;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  color: #bb4545;
+  font-size: larger;
+  text-align: center;
 }
 
 .ecommerce a {
-   color: rgb(187, 69, 69);
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   font-size: larger;
+  color: #bb4545;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .scale:hover {
-   transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .transition {
-   transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .resumen span {
-   color: rgb(187, 69, 69);
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   font-size: x-large;
-}
-
-.mision h6, p, a{
-   color: rgb(187, 69, 69);
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   font-size: large;
-   text-decoration: none;
+  color: #bb4545;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 .mision h6 {
-   text-transform: uppercase;
+  color: #bb4545;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mision p {
+  color: #bb4545;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
+}
+
+.mision a {
+  color: #bb4545;
+  font-family: 'Mansalva', cursive;
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
 }
 
 .redes p {
-   color: rgb(187, 69, 69);
-   font-weight: bolder;
-   font-size: larger;
-   text-align: center;
-   line-height: 70px;
+  color: #bb4545;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  line-height: 70px;
 }
 
 .redes a {
-   text-decoration: none;
-   padding: 10px;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .header_servicios {
-   text-align: center;
-   color: rgb(187, 69, 69);
-   font-weight: bolder;
-   font-size: 3rem;
-   font-family: 'Mansalva', cursive;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: #bb4545;
+  font-family: 'Mansalva', cursive;
 }
 
 .nosotros p {
-   font-size: 30px;
-   color: rgb(187, 69, 69);
-   line-height: 50px;
-   margin-bottom: 20px;
+  font-size: 30px;
+  color: #bb4545;
+  line-height: 50px;
+  margin-bottom: 20px;
 }
 
 .pelu {
-   margin-top: 125px;
+  margin-top: 125px;
 }
 
-.serv_vete h5{
-   font-size: 3rem;
-   text-align: center;
-   color: rgb(187, 69, 69);
-   font-weight: bolder;
-   font-family: 'Mansalva', cursive;
+.serv_vete h5 {
+  font-size: 3rem;
+  text-align: center;
+  color: #bb4545;
+  font-weight: bolder;
+  font-family: 'Mansalva', cursive;
 }
 
 .serv_vete p {
-   font-size: 1.5rem;
-   margin-top: 22px;
-   text-align: center;
+  font-size: 1.5rem;
+  margin-top: 22px;
+  text-align: center;
 }
 
 .footer {
-   margin-top: 125px;
+  margin-top: 125px;
 }
 
 .pie {
-   color: rgb(187, 69, 69);
-   font-weight: bolder;
-   font-size: larger;
-   font-family: 'Mansalva', cursive;
+  color: #bb4545;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Mansalva', cursive;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .mapa {
-   margin: 30px 0;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mapa iframe {
-   border: 2px solid rgb(187, 69, 69);
-   max-width: 100%;
-}
-
-.carrito button {
-   color: rgb(187, 69, 69);
-   font-family: 'Mansalva', cursive;
-   font-weight: bolder;
-   font-size: larger;
-}
-
-.precio {
-   font-weight: bolder;
-   font-size: larger;
+  border: 2px solid #bb4545;
+  max-width: 100%;
 }
 
 .price small {
-   margin-left: 65px;
-   font-weight: bolder;
-   font-size: larger;
+  margin-left: 65px;
+  font-weight: bolder;
+  font-size: larger;
 }
+/*# sourceMappingURL=estilos.css.map */
