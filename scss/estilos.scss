@@ -1,6 +1,5 @@
 @import "variables";
 @import "fuentes";
-@import "tools";
 
 body, nav{
     background: linear-gradient(to right, #c1d2d6, #bad47b);
@@ -133,7 +132,9 @@ body, nav{
 }
 
 .header_servicios {
-    @include hscios (center, bolder, 3rem);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
     color:$ftColor;
     font-family: 'Mansalva', cursive;
 }
@@ -161,6 +162,9 @@ body, nav{
         font-size: 1.5rem;
         margin-top: 22px;
         text-align: center;
+        color:$ftColor;
+        font-weight: bolder;
+        font-family: 'Mansalva', cursive;
     }
 }
 
@@ -170,10 +174,10 @@ body, nav{
 
 .pie {
     color:$ftColor;
-    font-weight: map-get($Copyright, font-weight);
+    font-weight: bolder;
     font-size: larger;
     font-family: 'Mansalva', cursive;
-    background-color: map-get($Copyright, background-color);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .mapa {
@@ -182,13 +186,16 @@ body, nav{
     flex-direction: column;
     align-items: center;
     iframe {
-        border: 2px solid$ftColor;
+        border: 2px solid $ftColor;
         max-width: 100%;
     }
 }
 
 .carrito button {
-    @extend %carritoBtn !optional;
+    color: $ftColor;
+    font-family: 'Mansalva', cursive;
+    font-weight: bolder;
+    font-size: larger;
 }
  
 .price small {
